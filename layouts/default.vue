@@ -1,12 +1,13 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
   <div>
-    <NuxtLoadingIndicator />
-    <NuxtLink to="/">Home</NuxtLink>
-    <NuxtLink to="/product/1">product</NuxtLink>
+    <NuxtLoadingIndicator/>
+    <Navbar></Navbar>
       <slot></slot>
   </div>
 </template>
 
-<script setup lang="ts"></script>
 
-<style></style>
