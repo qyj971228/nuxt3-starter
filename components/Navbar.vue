@@ -3,6 +3,18 @@
 <template>
   <NuxtLink to="/">Home</NuxtLink>
   <NuxtLink to="/product/1">product</NuxtLink>
+  <NuxtLink to="/">Home</NuxtLink>
+  <NuxtLink to="/product/1">product</NuxtLink>
+  <NuxtLink to="/">Home</NuxtLink>
+  <NuxtLink to="/product/1">product</NuxtLink>
+  <NuxtLink to="/">Home</NuxtLink>
+  <NuxtLink to="/product/1">product</NuxtLink>
+  <NuxtLink to="/">Home</NuxtLink>
+  <NuxtLink to="/product/1">product</NuxtLink>
+  <NuxtLink to="/">Home</NuxtLink>
+  <NuxtLink to="/product/1">product</NuxtLink>
+  <NuxtLink to="/">Home</NuxtLink>
+  <NuxtLink to="/product/1">product</NuxtLink>
 </template>
 
 <style></style>
