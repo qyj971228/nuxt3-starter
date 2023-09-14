@@ -5,7 +5,10 @@ const baseUrl = useBaseUrl()
   <Html lang="en">
     <Head>
       <Title>this is title</Title>
-      <Meta name="description" content="`My page's ${number} description`" />
+      <Meta
+        name="description"
+        content="`My page's ${number} description`"
+      />
     </Head>
   </Html>
   <div class="home m-10">hello{{ uppercase(baseUrl) }}</div>
