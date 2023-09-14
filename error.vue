@@ -6,9 +6,11 @@
 </template>
 
 <script setup>
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const props = defineProps({
-  error: Object,
-});
+  // eslint-disable-next-line vue/require-default-prop
+  error: Object
+})
 
-const handleError = () => clearError({ redirect: "/" });
+const handleError = () => clearError({ redirect: '/' })
 </script>

@@ -1,14 +1,10 @@
 <template>
   <div>
     this is product layout
-    <slot></slot>
+    <slot />
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts"></script>
 
-</script>
-
-<style>
-
-</style>
+<style></style>

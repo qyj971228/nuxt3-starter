@@ -1,5 +1,4 @@
-export default defineNuxtRouteMiddleware((to, from) => {
-  // console.log(to, from)
-  // if (to.path == '/')
-  // return '/404'
-})
+// export default defineNuxtRouteMiddleware((to, from) => {
+
+// })
+export default defineNuxtRouteMiddleware(() => {})
