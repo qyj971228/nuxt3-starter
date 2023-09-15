@@ -5,7 +5,7 @@ export const useGet = async (
 ) => {
   return await useFetch(url, {
     ...options,
-    baseURL: useBaseUrl(),
+    baseURL: useBaseUrl().value,
     method: 'get',
     query
   })
@@ -18,7 +18,7 @@ export const useDelete = async (
 ) => {
   return await useFetch(url, {
     ...options,
-    baseURL: useBaseUrl(),
+    baseURL: useBaseUrl().value,
     method: 'delete',
     query
   })
@@ -31,7 +31,7 @@ export const usePost = async (
 ) => {
   return await useFetch(url, {
     ...options,
-    baseURL: useBaseUrl(),
+    baseURL: useBaseUrl().value,
     method: 'post',
     body
   })
@@ -44,7 +44,7 @@ export const usePut = async (
 ) => {
   return await useFetch(url, {
     ...options,
-    baseURL: useBaseUrl(),
+    baseURL: useBaseUrl().value,
     method: 'put',
     body
   })
